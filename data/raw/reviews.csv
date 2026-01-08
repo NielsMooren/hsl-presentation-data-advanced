@@ -1,0 +1,774 @@
+product_id,product_name,date,rating,review_text
+4,Tomatoes,2025-10-28,4,Love these tomatoes! Always consistent quality.
+1,Potatoes,2025-10-15,3,Average quality potatoes. Not bad but not great.
+6,Broccoli,2025-12-10,4,Superb quality! These broccoli are wonderful.
+6,Broccoli,2025-12-01,3,"The broccoli are alright, nothing to complain about."
+2,Carrots,2025-11-09,3,"The carrots are okay, I've had better."
+5,Lettuce,2025-12-14,3,"The lettuce are okay, nothing special."
+2,Carrots,2025-10-08,4,Amazing quality! These carrots are so good.
+1,Potatoes,2025-11-24,5,Outstanding! The potatoes exceeded my expectations.
+5,Lettuce,2025-11-05,4,Outstanding! The lettuce exceeded my expectations.
+3,Spinach,2025-12-05,4,Love these spinach! Always consistent quality.
+4,Tomatoes,2025-12-30,5,Delicious tomatoes! My family loved them.
+1,Potatoes,2025-10-23,4,Very fresh and tasty potatoes. Highly recommend!
+4,Tomatoes,2025-11-04,5,Amazing quality! These tomatoes are so good.
+5,Lettuce,2025-11-25,5,Perfect lettuce! Great taste and very fresh.
+4,Tomatoes,2025-10-27,1,The tomatoes was a bit stale and disappointing.
+6,Broccoli,2025-10-11,3,Average quality broccoli. Not bad but not great.
+2,Carrots,2025-11-15,3,Fair quality carrots.
+1,Potatoes,2025-10-17,1,The potatoes were wilted and tasteless.
+6,Broccoli,2025-12-03,5,Perfect broccoli! Great taste and very fresh.
+6,Broccoli,2025-11-07,2,The broccoli were rotten when I opened the package.
+6,Broccoli,2025-10-28,1,These broccoli were old and not fresh.
+6,Broccoli,2025-10-15,4,Perfect broccoli! Great taste and very fresh.
+6,Broccoli,2025-11-29,2,Very disappointed with these broccoli.
+5,Lettuce,2025-11-12,5,Delicious lettuce! My family loved them.
+1,Potatoes,2025-11-23,3,Standard quality potatoes.
+4,Tomatoes,2025-10-23,4,Perfect tomatoes! Great taste and very fresh.
+6,Broccoli,2025-10-17,5,Superb quality! These broccoli are wonderful.
+4,Tomatoes,2025-10-24,5,Amazing quality! These tomatoes are so good.
+6,Broccoli,2025-12-25,4,"Excellent broccoli, will definitely buy again!"
+5,Lettuce,2025-12-09,3,Standard quality lettuce.
+5,Lettuce,2025-10-26,4,Perfect lettuce! Great taste and very fresh.
+3,Spinach,2025-12-28,3,Fair quality spinach.
+1,Potatoes,2025-11-17,4,Outstanding! The potatoes exceeded my expectations.
+3,Spinach,2025-12-06,4,"Excellent spinach, will definitely buy again!"
+4,Tomatoes,2025-12-04,5,Very fresh and tasty tomatoes. Highly recommend!
+1,Potatoes,2025-12-28,5,"Fantastic potatoes, exactly what I was looking for."
+4,Tomatoes,2025-10-23,5,Superb quality! These tomatoes are wonderful.
+6,Broccoli,2025-12-16,4,Very fresh and tasty broccoli. Highly recommend!
+2,Carrots,2025-11-12,1,Poor quality carrots. Would not recommend.
+1,Potatoes,2025-12-31,5,Love these potatoes! Always consistent quality.
+5,Lettuce,2025-11-18,5,Very fresh and tasty lettuce. Highly recommend!
+3,Spinach,2025-12-20,3,"These spinach are fine, decent for the price."
+2,Carrots,2025-12-08,4,Amazing quality! These carrots are so good.
+4,Tomatoes,2025-11-19,5,Best tomatoes in my life! Super fresh and delicious.
+5,Lettuce,2025-10-26,1,These lettuce are terrible. Not what I expected.
+1,Potatoes,2025-10-20,5,Delicious potatoes! My family loved them.
+4,Tomatoes,2025-12-07,5,Love these tomatoes! Always consistent quality.
+6,Broccoli,2025-10-22,5,Love these broccoli! Always consistent quality.
+6,Broccoli,2025-11-30,3,"The broccoli are okay, nothing special."
+2,Carrots,2025-11-17,4,Outstanding! The carrots exceeded my expectations.
+3,Spinach,2026-01-06,4,"Excellent spinach, will definitely buy again!"
+3,Spinach,2025-11-16,3,These spinach are acceptable.
+6,Broccoli,2025-12-03,1,The broccoli was a bit stale and disappointing.
+3,Spinach,2025-10-27,4,Superb quality! These spinach are wonderful.
+4,Tomatoes,2025-11-07,5,Amazing quality! These tomatoes are so good.
+1,Potatoes,2025-12-07,5,"Excellent potatoes, will definitely buy again!"
+6,Broccoli,2025-12-05,3,"The broccoli are alright, nothing to complain about."
+1,Potatoes,2025-10-16,3,Standard quality potatoes.
+2,Carrots,2025-12-27,5,"Excellent carrots, will definitely buy again!"
+2,Carrots,2025-11-29,4,Perfect carrots! Great taste and very fresh.
+4,Tomatoes,2025-12-24,4,Perfect tomatoes! Great taste and very fresh.
+1,Potatoes,2025-12-09,3,These potatoes are decent enough.
+6,Broccoli,2025-10-24,3,"The broccoli are alright, nothing to complain about."
+3,Spinach,2025-11-05,5,Love these spinach! Always consistent quality.
+5,Lettuce,2025-10-21,5,"Excellent lettuce, will definitely buy again!"
+1,Potatoes,2025-12-19,5,Amazing quality! These potatoes are so good.
+3,Spinach,2025-12-29,4,Perfect spinach! Great taste and very fresh.
+6,Broccoli,2025-11-29,5,"Fantastic broccoli, exactly what I was looking for."
+3,Spinach,2025-10-22,4,Delicious spinach! My family loved them.
+6,Broccoli,2026-01-04,5,Delicious broccoli! My family loved them.
+4,Tomatoes,2025-12-25,1,Awful tomatoes! Very poor quality.
+2,Carrots,2025-12-17,4,Superb quality! These carrots are wonderful.
+3,Spinach,2025-11-19,3,"These spinach are fine, decent for the price."
+4,Tomatoes,2025-12-25,5,Amazing quality! These tomatoes are so good.
+3,Spinach,2025-10-18,3,"These spinach are fine, decent for the price."
+1,Potatoes,2025-12-25,5,Very fresh and tasty potatoes. Highly recommend!
+6,Broccoli,2026-01-05,3,Standard quality broccoli.
+4,Tomatoes,2025-12-24,3,"Normal tomatoes, what you would expect."
+5,Lettuce,2025-12-27,3,These lettuce are decent enough.
+3,Spinach,2025-12-19,4,Best spinach in my life! Super fresh and delicious.
+3,Spinach,2026-01-02,2,Poor quality spinach. Would not recommend.
+6,Broccoli,2025-11-27,5,Love these broccoli! Always consistent quality.
+5,Lettuce,2025-10-23,5,Love these lettuce! Always consistent quality.
+4,Tomatoes,2026-01-02,4,Best tomatoes in my life! Super fresh and delicious.
+5,Lettuce,2025-10-21,4,Amazing quality! These lettuce are so good.
+2,Carrots,2025-12-05,5,Amazing quality! These carrots are so good.
+5,Lettuce,2025-12-07,5,Delicious lettuce! My family loved them.
+2,Carrots,2025-12-23,4,Outstanding! The carrots exceeded my expectations.
+5,Lettuce,2025-11-21,4,Perfect lettuce! Great taste and very fresh.
+2,Carrots,2025-11-02,5,Amazing quality! These carrots are so good.
+1,Potatoes,2026-01-03,3,"These potatoes are fine, decent for the price."
+2,Carrots,2026-01-06,5,Very fresh and tasty carrots. Highly recommend!
+6,Broccoli,2025-11-29,5,Very fresh and tasty broccoli. Highly recommend!
+1,Potatoes,2025-12-20,1,The potatoes were wilted and tasteless.
+2,Carrots,2025-12-22,2,This is the worst carrots ever! Not fresh at all.
+6,Broccoli,2025-12-26,3,Average quality broccoli. Not bad but not great.
+5,Lettuce,2025-12-11,4,Very fresh and tasty lettuce. Highly recommend!
+2,Carrots,2026-01-02,3,"Normal carrots, what you would expect."
+6,Broccoli,2025-12-27,4,Perfect broccoli! Great taste and very fresh.
+4,Tomatoes,2025-11-10,5,Love these tomatoes! Always consistent quality.
+6,Broccoli,2025-11-14,1,Bad quality broccoli. Waste of money.
+1,Potatoes,2026-01-01,2,These potatoes were old and not fresh.
+3,Spinach,2025-10-09,5,"Fantastic spinach, exactly what I was looking for."
+2,Carrots,2025-12-02,2,These carrots are terrible. Not what I expected.
+1,Potatoes,2025-11-09,5,Love these potatoes! Always consistent quality.
+1,Potatoes,2025-12-12,4,"Excellent potatoes, will definitely buy again!"
+6,Broccoli,2025-12-17,3,"These broccoli are fine, decent for the price."
+2,Carrots,2026-01-01,5,Perfect carrots! Great taste and very fresh.
+6,Broccoli,2025-12-23,5,Outstanding! The broccoli exceeded my expectations.
+2,Carrots,2025-11-19,3,Fair quality carrots.
+4,Tomatoes,2025-10-28,4,Love these tomatoes! Always consistent quality.
+6,Broccoli,2025-12-19,3,Standard quality broccoli.
+1,Potatoes,2025-12-19,3,Fair quality potatoes.
+1,Potatoes,2025-10-24,5,Superb quality! These potatoes are wonderful.
+3,Spinach,2025-10-10,4,Best spinach in my life! Super fresh and delicious.
+3,Spinach,2025-11-06,4,"Excellent spinach, will definitely buy again!"
+4,Tomatoes,2025-11-05,2,Poor quality tomatoes. Would not recommend.
+6,Broccoli,2025-12-07,4,"Excellent broccoli, will definitely buy again!"
+5,Lettuce,2025-12-20,3,Standard quality lettuce.
+6,Broccoli,2025-11-08,5,Best broccoli in my life! Super fresh and delicious.
+1,Potatoes,2025-11-26,5,Very fresh and tasty potatoes. Highly recommend!
+3,Spinach,2025-11-29,4,Outstanding! The spinach exceeded my expectations.
+5,Lettuce,2025-10-27,2,These lettuce are terrible. Not what I expected.
+6,Broccoli,2025-12-24,3,Standard quality broccoli.
+1,Potatoes,2025-11-01,5,Very fresh and tasty potatoes. Highly recommend!
+4,Tomatoes,2026-01-02,5,Amazing quality! These tomatoes are so good.
+3,Spinach,2025-12-22,5,Perfect spinach! Great taste and very fresh.
+4,Tomatoes,2025-12-18,4,Best tomatoes in my life! Super fresh and delicious.
+5,Lettuce,2025-10-18,5,"Fantastic lettuce, exactly what I was looking for."
+5,Lettuce,2025-10-27,5,Best lettuce in my life! Super fresh and delicious.
+6,Broccoli,2025-12-22,5,Perfect broccoli! Great taste and very fresh.
+2,Carrots,2025-12-15,5,Perfect carrots! Great taste and very fresh.
+6,Broccoli,2025-10-14,3,"The broccoli are okay, I've had better."
+4,Tomatoes,2025-11-15,4,"Excellent tomatoes, will definitely buy again!"
+5,Lettuce,2025-11-10,4,Amazing quality! These lettuce are so good.
+6,Broccoli,2025-11-19,4,Amazing quality! These broccoli are so good.
+4,Tomatoes,2026-01-01,5,"Excellent tomatoes, will definitely buy again!"
+1,Potatoes,2025-10-25,3,"The potatoes are okay, nothing special."
+1,Potatoes,2025-12-21,4,Very fresh and tasty potatoes. Highly recommend!
+3,Spinach,2025-10-29,4,Superb quality! These spinach are wonderful.
+5,Lettuce,2025-12-19,4,"Fantastic lettuce, exactly what I was looking for."
+3,Spinach,2025-11-02,3,These spinach are acceptable.
+1,Potatoes,2025-10-10,4,Delicious potatoes! My family loved them.
+2,Carrots,2025-10-24,1,Bad quality carrots. Waste of money.
+6,Broccoli,2025-11-25,3,Fair quality broccoli.
+2,Carrots,2025-12-02,3,These carrots are decent enough.
+3,Spinach,2025-11-01,5,Best spinach in my life! Super fresh and delicious.
+1,Potatoes,2025-10-25,5,Best potatoes in my life! Super fresh and delicious.
+4,Tomatoes,2025-11-14,5,Superb quality! These tomatoes are wonderful.
+5,Lettuce,2025-11-05,2,Very disappointed with these lettuce.
+6,Broccoli,2025-12-26,5,Delicious broccoli! My family loved them.
+3,Spinach,2025-10-17,5,Superb quality! These spinach are wonderful.
+2,Carrots,2026-01-02,3,"The carrots are okay, nothing special."
+6,Broccoli,2025-11-19,3,These broccoli are decent enough.
+3,Spinach,2025-10-11,5,"Excellent spinach, will definitely buy again!"
+1,Potatoes,2026-01-01,3,"Normal potatoes, what you would expect."
+4,Tomatoes,2025-12-16,2,These tomatoes were old and not fresh.
+3,Spinach,2025-12-01,5,Amazing quality! These spinach are so good.
+4,Tomatoes,2025-11-10,4,Outstanding! The tomatoes exceeded my expectations.
+4,Tomatoes,2025-11-20,5,Superb quality! These tomatoes are wonderful.
+4,Tomatoes,2025-12-14,3,These tomatoes are acceptable.
+3,Spinach,2025-12-29,3,These spinach are acceptable.
+2,Carrots,2025-10-15,5,"Fantastic carrots, exactly what I was looking for."
+1,Potatoes,2025-11-30,4,Superb quality! These potatoes are wonderful.
+6,Broccoli,2025-12-14,4,"Excellent broccoli, will definitely buy again!"
+5,Lettuce,2025-10-26,5,Delicious lettuce! My family loved them.
+4,Tomatoes,2025-12-20,4,Amazing quality! These tomatoes are so good.
+2,Carrots,2025-12-12,3,These carrots are decent enough.
+2,Carrots,2025-10-13,4,Best carrots in my life! Super fresh and delicious.
+4,Tomatoes,2025-10-23,3,"The tomatoes are okay, I've had better."
+5,Lettuce,2025-12-18,5,Delicious lettuce! My family loved them.
+5,Lettuce,2025-11-01,5,Best lettuce in my life! Super fresh and delicious.
+5,Lettuce,2025-11-01,3,"The lettuce are okay, I've had better."
+3,Spinach,2025-11-08,3,"The spinach are alright, nothing to complain about."
+6,Broccoli,2025-11-06,3,Standard quality broccoli.
+5,Lettuce,2025-10-31,4,Delicious lettuce! My family loved them.
+6,Broccoli,2025-10-17,4,Delicious broccoli! My family loved them.
+1,Potatoes,2025-10-31,3,"Normal potatoes, what you would expect."
+3,Spinach,2025-12-13,2,These spinach are terrible. Not what I expected.
+2,Carrots,2026-01-06,3,These carrots are decent enough.
+4,Tomatoes,2025-12-18,4,Delicious tomatoes! My family loved them.
+3,Spinach,2025-11-06,3,"The spinach are okay, nothing special."
+5,Lettuce,2025-11-22,5,Delicious lettuce! My family loved them.
+1,Potatoes,2025-11-18,4,Best potatoes in my life! Super fresh and delicious.
+6,Broccoli,2025-10-11,5,Love these broccoli! Always consistent quality.
+6,Broccoli,2025-12-18,5,Outstanding! The broccoli exceeded my expectations.
+4,Tomatoes,2025-10-22,4,Outstanding! The tomatoes exceeded my expectations.
+5,Lettuce,2025-10-24,5,Love these lettuce! Always consistent quality.
+6,Broccoli,2025-12-18,2,The broccoli were rotten when I opened the package.
+4,Tomatoes,2025-11-29,2,The tomatoes were rotten when I opened the package.
+5,Lettuce,2025-10-22,2,Poor quality lettuce. Would not recommend.
+1,Potatoes,2025-11-08,5,Superb quality! These potatoes are wonderful.
+5,Lettuce,2025-10-17,3,"The lettuce are alright, nothing to complain about."
+3,Spinach,2025-10-20,4,Love these spinach! Always consistent quality.
+4,Tomatoes,2025-12-27,4,Amazing quality! These tomatoes are so good.
+2,Carrots,2026-01-03,3,Average quality carrots. Not bad but not great.
+6,Broccoli,2026-01-05,5,Outstanding! The broccoli exceeded my expectations.
+5,Lettuce,2025-10-27,4,Delicious lettuce! My family loved them.
+3,Spinach,2026-01-01,4,Delicious spinach! My family loved them.
+1,Potatoes,2025-12-10,1,Awful potatoes! Very poor quality.
+3,Spinach,2025-12-03,5,Love these spinach! Always consistent quality.
+5,Lettuce,2026-01-05,4,Perfect lettuce! Great taste and very fresh.
+6,Broccoli,2025-11-02,1,The broccoli were rotten when I opened the package.
+6,Broccoli,2025-10-27,4,Superb quality! These broccoli are wonderful.
+2,Carrots,2025-10-30,3,"The carrots are okay, I've had better."
+6,Broccoli,2025-11-01,4,"Excellent broccoli, will definitely buy again!"
+5,Lettuce,2025-12-02,4,Amazing quality! These lettuce are so good.
+2,Carrots,2025-12-24,1,Poor quality carrots. Would not recommend.
+2,Carrots,2025-12-15,5,Amazing quality! These carrots are so good.
+4,Tomatoes,2025-11-21,5,Very fresh and tasty tomatoes. Highly recommend!
+5,Lettuce,2025-10-15,2,Very disappointed with these lettuce.
+3,Spinach,2025-10-28,4,Perfect spinach! Great taste and very fresh.
+4,Tomatoes,2025-10-28,4,Perfect tomatoes! Great taste and very fresh.
+3,Spinach,2025-12-17,3,"These spinach are fine, decent for the price."
+6,Broccoli,2025-10-14,5,"Excellent broccoli, will definitely buy again!"
+3,Spinach,2025-10-28,4,Best spinach in my life! Super fresh and delicious.
+2,Carrots,2025-11-27,3,"The carrots are okay, nothing special."
+2,Carrots,2026-01-06,3,"The carrots are alright, nothing to complain about."
+3,Spinach,2025-12-07,3,"The spinach are okay, nothing special."
+4,Tomatoes,2025-12-14,5,Very fresh and tasty tomatoes. Highly recommend!
+5,Lettuce,2025-11-09,1,Bad quality lettuce. Waste of money.
+2,Carrots,2025-12-27,4,"Excellent carrots, will definitely buy again!"
+3,Spinach,2025-12-06,5,"Fantastic spinach, exactly what I was looking for."
+1,Potatoes,2025-11-21,5,Love these potatoes! Always consistent quality.
+1,Potatoes,2025-12-06,5,Outstanding! The potatoes exceeded my expectations.
+6,Broccoli,2025-12-27,3,"These broccoli are fine, decent for the price."
+5,Lettuce,2025-11-13,5,Perfect lettuce! Great taste and very fresh.
+4,Tomatoes,2025-11-25,3,"The tomatoes are okay, nothing special."
+3,Spinach,2025-10-08,3,"The spinach are alright, nothing to complain about."
+2,Carrots,2025-12-08,5,Best carrots in my life! Super fresh and delicious.
+5,Lettuce,2026-01-06,2,The lettuce was a bit stale and disappointing.
+3,Spinach,2025-11-29,3,"These spinach are fine, decent for the price."
+3,Spinach,2025-12-20,3,Standard quality spinach.
+5,Lettuce,2025-10-11,4,Best lettuce in my life! Super fresh and delicious.
+1,Potatoes,2025-10-12,5,Outstanding! The potatoes exceeded my expectations.
+6,Broccoli,2025-12-20,3,Fair quality broccoli.
+5,Lettuce,2025-10-26,4,Amazing quality! These lettuce are so good.
+3,Spinach,2025-10-10,3,"The spinach are okay, nothing special."
+6,Broccoli,2025-11-17,1,The broccoli were rotten when I opened the package.
+2,Carrots,2025-12-27,3,"The carrots are alright, nothing to complain about."
+5,Lettuce,2025-10-18,5,Superb quality! These lettuce are wonderful.
+1,Potatoes,2025-10-28,4,Outstanding! The potatoes exceeded my expectations.
+2,Carrots,2025-12-07,1,The carrots were rotten when I opened the package.
+4,Tomatoes,2025-10-26,1,The tomatoes were wilted and tasteless.
+5,Lettuce,2025-11-07,4,Best lettuce in my life! Super fresh and delicious.
+6,Broccoli,2025-11-19,5,Delicious broccoli! My family loved them.
+2,Carrots,2025-12-20,5,Perfect carrots! Great taste and very fresh.
+3,Spinach,2025-11-10,5,Outstanding! The spinach exceeded my expectations.
+2,Carrots,2026-01-02,3,"The carrots are alright, nothing to complain about."
+5,Lettuce,2025-10-25,5,"Fantastic lettuce, exactly what I was looking for."
+6,Broccoli,2025-11-28,5,Best broccoli in my life! Super fresh and delicious.
+2,Carrots,2025-12-11,1,This is the worst carrots ever! Not fresh at all.
+1,Potatoes,2025-11-13,3,Standard quality potatoes.
+1,Potatoes,2025-10-12,4,Very fresh and tasty potatoes. Highly recommend!
+4,Tomatoes,2025-12-20,3,"The tomatoes are okay, I've had better."
+4,Tomatoes,2026-01-05,3,"The tomatoes are alright, nothing to complain about."
+4,Tomatoes,2025-11-09,3,"The tomatoes are okay, nothing special."
+2,Carrots,2025-12-21,4,Best carrots in my life! Super fresh and delicious.
+4,Tomatoes,2025-12-15,3,Standard quality tomatoes.
+1,Potatoes,2025-11-08,5,Amazing quality! These potatoes are so good.
+6,Broccoli,2025-11-08,5,Amazing quality! These broccoli are so good.
+6,Broccoli,2025-12-13,4,Delicious broccoli! My family loved them.
+2,Carrots,2025-10-13,3,"The carrots are okay, nothing special."
+5,Lettuce,2025-11-10,4,Perfect lettuce! Great taste and very fresh.
+4,Tomatoes,2025-10-17,5,Superb quality! These tomatoes are wonderful.
+2,Carrots,2025-12-19,3,These carrots are decent enough.
+2,Carrots,2025-12-18,5,Best carrots in my life! Super fresh and delicious.
+4,Tomatoes,2025-10-23,2,The tomatoes were rotten when I opened the package.
+3,Spinach,2025-10-08,4,Perfect spinach! Great taste and very fresh.
+4,Tomatoes,2025-11-18,3,"The tomatoes are alright, nothing to complain about."
+2,Carrots,2025-11-10,5,"Fantastic carrots, exactly what I was looking for."
+5,Lettuce,2025-12-11,4,"Excellent lettuce, will definitely buy again!"
+3,Spinach,2025-11-29,1,This is the worst spinach ever! Not fresh at all.
+2,Carrots,2025-12-22,5,Amazing quality! These carrots are so good.
+2,Carrots,2025-10-11,5,Very fresh and tasty carrots. Highly recommend!
+4,Tomatoes,2025-10-10,4,Love these tomatoes! Always consistent quality.
+6,Broccoli,2025-11-28,1,The broccoli were rotten when I opened the package.
+5,Lettuce,2025-11-15,5,Very fresh and tasty lettuce. Highly recommend!
+2,Carrots,2025-12-17,3,These carrots are decent enough.
+6,Broccoli,2025-12-14,2,This is the worst broccoli ever! Not fresh at all.
+4,Tomatoes,2025-11-21,3,These tomatoes are decent enough.
+2,Carrots,2025-11-01,1,Very disappointed with these carrots.
+3,Spinach,2025-10-30,5,Very fresh and tasty spinach. Highly recommend!
+5,Lettuce,2025-12-18,3,Average quality lettuce. Not bad but not great.
+3,Spinach,2025-10-20,4,Amazing quality! These spinach are so good.
+6,Broccoli,2025-11-03,1,Poor quality broccoli. Would not recommend.
+6,Broccoli,2025-10-26,5,"Fantastic broccoli, exactly what I was looking for."
+4,Tomatoes,2025-10-30,4,Very fresh and tasty tomatoes. Highly recommend!
+4,Tomatoes,2025-12-17,5,Outstanding! The tomatoes exceeded my expectations.
+3,Spinach,2025-12-31,3,"These spinach are fine, decent for the price."
+1,Potatoes,2025-10-27,5,"Fantastic potatoes, exactly what I was looking for."
+6,Broccoli,2025-12-08,5,Outstanding! The broccoli exceeded my expectations.
+3,Spinach,2025-10-20,3,"The spinach are okay, nothing special."
+3,Spinach,2025-10-19,3,These spinach are decent enough.
+4,Tomatoes,2025-12-07,4,Best tomatoes in my life! Super fresh and delicious.
+4,Tomatoes,2025-11-19,1,These tomatoes were old and not fresh.
+3,Spinach,2025-10-10,3,These spinach are acceptable.
+3,Spinach,2025-10-10,5,Very fresh and tasty spinach. Highly recommend!
+4,Tomatoes,2025-11-24,3,"These tomatoes are fine, decent for the price."
+1,Potatoes,2025-10-15,5,Very fresh and tasty potatoes. Highly recommend!
+3,Spinach,2025-12-02,1,Poor quality spinach. Would not recommend.
+5,Lettuce,2025-10-25,5,Delicious lettuce! My family loved them.
+4,Tomatoes,2025-12-14,3,"The tomatoes are alright, nothing to complain about."
+4,Tomatoes,2026-01-05,3,Standard quality tomatoes.
+3,Spinach,2025-11-16,5,Outstanding! The spinach exceeded my expectations.
+6,Broccoli,2025-11-03,5,"Excellent broccoli, will definitely buy again!"
+2,Carrots,2026-01-02,3,Average quality carrots. Not bad but not great.
+5,Lettuce,2025-12-19,4,Amazing quality! These lettuce are so good.
+4,Tomatoes,2025-12-20,5,Delicious tomatoes! My family loved them.
+3,Spinach,2025-12-01,3,"Normal spinach, what you would expect."
+5,Lettuce,2025-11-20,5,"Excellent lettuce, will definitely buy again!"
+5,Lettuce,2025-12-03,1,Poor quality lettuce. Would not recommend.
+6,Broccoli,2025-11-27,3,"Normal broccoli, what you would expect."
+1,Potatoes,2025-10-14,3,"These potatoes are fine, decent for the price."
+6,Broccoli,2025-12-22,4,Perfect broccoli! Great taste and very fresh.
+6,Broccoli,2025-10-24,4,"Fantastic broccoli, exactly what I was looking for."
+2,Carrots,2025-11-29,4,Outstanding! The carrots exceeded my expectations.
+5,Lettuce,2025-12-08,5,Delicious lettuce! My family loved them.
+5,Lettuce,2025-10-19,5,"Fantastic lettuce, exactly what I was looking for."
+1,Potatoes,2025-11-01,4,Delicious potatoes! My family loved them.
+4,Tomatoes,2025-10-23,3,These tomatoes are decent enough.
+4,Tomatoes,2025-10-23,4,Delicious tomatoes! My family loved them.
+3,Spinach,2025-11-07,3,"The spinach are okay, nothing special."
+2,Carrots,2025-11-27,3,"Normal carrots, what you would expect."
+2,Carrots,2025-12-06,2,The carrots was a bit stale and disappointing.
+1,Potatoes,2025-11-27,5,"Fantastic potatoes, exactly what I was looking for."
+1,Potatoes,2025-12-05,3,Standard quality potatoes.
+1,Potatoes,2025-12-10,4,Very fresh and tasty potatoes. Highly recommend!
+5,Lettuce,2025-11-02,5,Amazing quality! These lettuce are so good.
+2,Carrots,2025-12-01,4,Delicious carrots! My family loved them.
+5,Lettuce,2026-01-02,5,Outstanding! The lettuce exceeded my expectations.
+3,Spinach,2025-12-02,4,Amazing quality! These spinach are so good.
+4,Tomatoes,2025-11-10,4,"Excellent tomatoes, will definitely buy again!"
+3,Spinach,2025-12-29,4,"Fantastic spinach, exactly what I was looking for."
+4,Tomatoes,2025-12-11,4,Outstanding! The tomatoes exceeded my expectations.
+6,Broccoli,2025-11-27,1,These broccoli are terrible. Not what I expected.
+6,Broccoli,2025-11-10,3,"The broccoli are okay, nothing special."
+5,Lettuce,2025-10-22,3,"These lettuce are fine, decent for the price."
+2,Carrots,2025-11-01,2,The carrots was a bit stale and disappointing.
+4,Tomatoes,2025-12-14,5,"Excellent tomatoes, will definitely buy again!"
+1,Potatoes,2025-11-18,3,These potatoes are decent enough.
+2,Carrots,2025-10-21,3,"The carrots are okay, I've had better."
+3,Spinach,2025-11-01,3,"The spinach are okay, I've had better."
+1,Potatoes,2025-12-07,2,The potatoes were rotten when I opened the package.
+6,Broccoli,2025-11-16,3,Standard quality broccoli.
+2,Carrots,2025-10-14,4,Delicious carrots! My family loved them.
+3,Spinach,2025-12-02,2,The spinach were rotten when I opened the package.
+6,Broccoli,2026-01-05,4,"Fantastic broccoli, exactly what I was looking for."
+6,Broccoli,2025-12-31,3,"These broccoli are fine, decent for the price."
+4,Tomatoes,2025-11-27,5,Amazing quality! These tomatoes are so good.
+5,Lettuce,2025-11-11,2,The lettuce were wilted and tasteless.
+1,Potatoes,2025-11-09,2,This is the worst potatoes ever! Not fresh at all.
+5,Lettuce,2025-11-09,5,Perfect lettuce! Great taste and very fresh.
+3,Spinach,2025-10-12,2,The spinach were rotten when I opened the package.
+4,Tomatoes,2025-11-12,3,Standard quality tomatoes.
+2,Carrots,2025-12-15,5,Very fresh and tasty carrots. Highly recommend!
+3,Spinach,2025-12-01,2,Poor quality spinach. Would not recommend.
+3,Spinach,2025-11-22,5,Best spinach in my life! Super fresh and delicious.
+1,Potatoes,2025-10-14,4,Perfect potatoes! Great taste and very fresh.
+4,Tomatoes,2025-10-30,2,These tomatoes are terrible. Not what I expected.
+2,Carrots,2026-01-04,5,Amazing quality! These carrots are so good.
+6,Broccoli,2025-12-06,5,Delicious broccoli! My family loved them.
+3,Spinach,2025-12-26,1,The spinach were wilted and tasteless.
+4,Tomatoes,2025-10-29,5,Outstanding! The tomatoes exceeded my expectations.
+5,Lettuce,2025-11-02,5,Best lettuce in my life! Super fresh and delicious.
+5,Lettuce,2025-11-06,4,Amazing quality! These lettuce are so good.
+6,Broccoli,2026-01-06,1,The broccoli was a bit stale and disappointing.
+3,Spinach,2025-12-28,1,Poor quality spinach. Would not recommend.
+5,Lettuce,2025-11-03,3,Fair quality lettuce.
+2,Carrots,2025-12-03,4,Amazing quality! These carrots are so good.
+1,Potatoes,2025-10-27,5,Outstanding! The potatoes exceeded my expectations.
+5,Lettuce,2026-01-01,4,Delicious lettuce! My family loved them.
+3,Spinach,2026-01-01,3,Average quality spinach. Not bad but not great.
+6,Broccoli,2025-12-22,4,Love these broccoli! Always consistent quality.
+6,Broccoli,2025-10-25,5,Very fresh and tasty broccoli. Highly recommend!
+5,Lettuce,2025-12-09,3,Fair quality lettuce.
+3,Spinach,2025-11-11,2,Very disappointed with these spinach.
+4,Tomatoes,2025-12-18,3,Standard quality tomatoes.
+2,Carrots,2025-10-21,3,"Normal carrots, what you would expect."
+5,Lettuce,2025-11-13,5,Outstanding! The lettuce exceeded my expectations.
+1,Potatoes,2025-11-15,3,"These potatoes are fine, decent for the price."
+5,Lettuce,2025-10-29,4,Very fresh and tasty lettuce. Highly recommend!
+6,Broccoli,2026-01-01,5,Amazing quality! These broccoli are so good.
+6,Broccoli,2025-11-10,5,Perfect broccoli! Great taste and very fresh.
+5,Lettuce,2025-11-02,3,"These lettuce are fine, decent for the price."
+6,Broccoli,2025-10-18,4,Amazing quality! These broccoli are so good.
+5,Lettuce,2025-12-18,3,"The lettuce are okay, nothing special."
+3,Spinach,2025-10-16,3,Fair quality spinach.
+3,Spinach,2025-11-11,3,"These spinach are fine, decent for the price."
+5,Lettuce,2025-11-30,4,Very fresh and tasty lettuce. Highly recommend!
+2,Carrots,2025-12-18,5,Perfect carrots! Great taste and very fresh.
+6,Broccoli,2025-11-21,5,Perfect broccoli! Great taste and very fresh.
+4,Tomatoes,2025-12-19,3,Average quality tomatoes. Not bad but not great.
+5,Lettuce,2025-12-22,4,Superb quality! These lettuce are wonderful.
+2,Carrots,2025-10-28,4,Amazing quality! These carrots are so good.
+4,Tomatoes,2025-11-13,5,Delicious tomatoes! My family loved them.
+1,Potatoes,2025-11-28,3,"The potatoes are okay, I've had better."
+2,Carrots,2025-11-24,3,"Normal carrots, what you would expect."
+6,Broccoli,2025-10-25,5,"Fantastic broccoli, exactly what I was looking for."
+5,Lettuce,2025-11-14,4,Outstanding! The lettuce exceeded my expectations.
+1,Potatoes,2025-11-03,5,"Excellent potatoes, will definitely buy again!"
+6,Broccoli,2025-10-08,5,Amazing quality! These broccoli are so good.
+2,Carrots,2025-10-20,3,"These carrots are fine, decent for the price."
+5,Lettuce,2025-10-18,3,"The lettuce are okay, nothing special."
+5,Lettuce,2025-11-12,4,Best lettuce in my life! Super fresh and delicious.
+5,Lettuce,2025-12-17,2,These lettuce were old and not fresh.
+1,Potatoes,2025-12-27,3,These potatoes are acceptable.
+6,Broccoli,2025-10-23,5,Amazing quality! These broccoli are so good.
+6,Broccoli,2025-12-15,1,The broccoli were wilted and tasteless.
+6,Broccoli,2025-12-06,3,"Normal broccoli, what you would expect."
+4,Tomatoes,2025-10-29,2,Bad quality tomatoes. Waste of money.
+4,Tomatoes,2025-11-17,5,Amazing quality! These tomatoes are so good.
+2,Carrots,2025-12-08,5,"Fantastic carrots, exactly what I was looking for."
+5,Lettuce,2025-11-23,1,The lettuce were rotten when I opened the package.
+3,Spinach,2025-10-16,3,"The spinach are okay, nothing special."
+5,Lettuce,2025-12-26,2,This is the worst lettuce ever! Not fresh at all.
+2,Carrots,2025-12-27,4,Love these carrots! Always consistent quality.
+3,Spinach,2025-10-15,2,The spinach was a bit stale and disappointing.
+5,Lettuce,2025-10-16,4,Superb quality! These lettuce are wonderful.
+6,Broccoli,2025-10-19,3,Fair quality broccoli.
+3,Spinach,2025-12-12,1,Very disappointed with these spinach.
+3,Spinach,2025-10-29,4,"Fantastic spinach, exactly what I was looking for."
+3,Spinach,2026-01-02,5,"Excellent spinach, will definitely buy again!"
+3,Spinach,2025-11-07,4,"Excellent spinach, will definitely buy again!"
+4,Tomatoes,2025-12-25,5,"Fantastic tomatoes, exactly what I was looking for."
+3,Spinach,2025-10-24,1,These spinach are terrible. Not what I expected.
+3,Spinach,2025-11-10,3,"Normal spinach, what you would expect."
+5,Lettuce,2025-11-26,4,Superb quality! These lettuce are wonderful.
+6,Broccoli,2025-10-14,1,Very disappointed with these broccoli.
+2,Carrots,2025-10-14,5,Perfect carrots! Great taste and very fresh.
+5,Lettuce,2025-10-16,1,This is the worst lettuce ever! Not fresh at all.
+2,Carrots,2025-11-25,5,Best carrots in my life! Super fresh and delicious.
+3,Spinach,2025-12-26,5,Amazing quality! These spinach are so good.
+1,Potatoes,2025-11-28,4,"Excellent potatoes, will definitely buy again!"
+1,Potatoes,2025-12-05,4,Outstanding! The potatoes exceeded my expectations.
+3,Spinach,2026-01-01,4,Outstanding! The spinach exceeded my expectations.
+3,Spinach,2026-01-01,3,"The spinach are okay, nothing special."
+2,Carrots,2026-01-02,5,"Excellent carrots, will definitely buy again!"
+3,Spinach,2026-01-05,5,Amazing quality! These spinach are so good.
+2,Carrots,2025-10-25,5,Amazing quality! These carrots are so good.
+4,Tomatoes,2025-11-22,4,"Excellent tomatoes, will definitely buy again!"
+6,Broccoli,2025-12-05,5,Amazing quality! These broccoli are so good.
+2,Carrots,2025-12-10,4,Amazing quality! These carrots are so good.
+1,Potatoes,2025-12-29,5,Perfect potatoes! Great taste and very fresh.
+1,Potatoes,2025-12-21,4,Best potatoes in my life! Super fresh and delicious.
+4,Tomatoes,2025-10-30,4,"Fantastic tomatoes, exactly what I was looking for."
+5,Lettuce,2025-11-18,5,Amazing quality! These lettuce are so good.
+4,Tomatoes,2026-01-01,5,"Fantastic tomatoes, exactly what I was looking for."
+1,Potatoes,2025-10-30,2,Poor quality potatoes. Would not recommend.
+4,Tomatoes,2025-11-05,4,Perfect tomatoes! Great taste and very fresh.
+1,Potatoes,2025-11-24,3,Average quality potatoes. Not bad but not great.
+4,Tomatoes,2025-12-31,5,Superb quality! These tomatoes are wonderful.
+2,Carrots,2025-11-18,3,"The carrots are okay, I've had better."
+5,Lettuce,2025-12-29,3,"The lettuce are okay, I've had better."
+2,Carrots,2025-11-06,5,"Fantastic carrots, exactly what I was looking for."
+6,Broccoli,2025-11-07,4,Best broccoli in my life! Super fresh and delicious.
+5,Lettuce,2025-12-23,5,Perfect lettuce! Great taste and very fresh.
+1,Potatoes,2025-10-16,2,The potatoes were wilted and tasteless.
+2,Carrots,2025-10-24,4,Amazing quality! These carrots are so good.
+6,Broccoli,2025-10-26,5,Superb quality! These broccoli are wonderful.
+2,Carrots,2025-12-08,5,Amazing quality! These carrots are so good.
+5,Lettuce,2025-12-27,5,"Fantastic lettuce, exactly what I was looking for."
+6,Broccoli,2025-10-13,4,Amazing quality! These broccoli are so good.
+5,Lettuce,2026-01-04,1,The lettuce were wilted and tasteless.
+3,Spinach,2025-12-15,5,Delicious spinach! My family loved them.
+2,Carrots,2025-11-21,4,Delicious carrots! My family loved them.
+5,Lettuce,2025-12-20,4,Superb quality! These lettuce are wonderful.
+3,Spinach,2025-11-04,1,These spinach are terrible. Not what I expected.
+5,Lettuce,2025-10-15,4,Love these lettuce! Always consistent quality.
+2,Carrots,2025-10-19,5,Delicious carrots! My family loved them.
+1,Potatoes,2025-10-09,5,Perfect potatoes! Great taste and very fresh.
+5,Lettuce,2025-10-13,5,"Excellent lettuce, will definitely buy again!"
+2,Carrots,2025-12-01,3,Standard quality carrots.
+3,Spinach,2025-10-16,5,Very fresh and tasty spinach. Highly recommend!
+3,Spinach,2025-10-27,5,Perfect spinach! Great taste and very fresh.
+1,Potatoes,2025-11-24,2,The potatoes was a bit stale and disappointing.
+5,Lettuce,2025-11-03,5,Amazing quality! These lettuce are so good.
+3,Spinach,2025-10-31,3,"Normal spinach, what you would expect."
+6,Broccoli,2025-12-18,3,"The broccoli are alright, nothing to complain about."
+4,Tomatoes,2025-11-29,3,These tomatoes are acceptable.
+1,Potatoes,2025-10-25,3,"The potatoes are okay, I've had better."
+3,Spinach,2025-12-12,3,These spinach are decent enough.
+1,Potatoes,2025-11-01,3,"Normal potatoes, what you would expect."
+5,Lettuce,2025-12-08,5,Outstanding! The lettuce exceeded my expectations.
+4,Tomatoes,2025-11-29,4,Superb quality! These tomatoes are wonderful.
+4,Tomatoes,2025-11-09,3,Fair quality tomatoes.
+6,Broccoli,2025-12-26,3,Fair quality broccoli.
+5,Lettuce,2025-12-31,4,Very fresh and tasty lettuce. Highly recommend!
+5,Lettuce,2025-12-22,5,"Fantastic lettuce, exactly what I was looking for."
+6,Broccoli,2025-11-21,3,Standard quality broccoli.
+3,Spinach,2025-12-05,5,"Excellent spinach, will definitely buy again!"
+4,Tomatoes,2025-11-26,5,Outstanding! The tomatoes exceeded my expectations.
+2,Carrots,2025-12-10,3,"The carrots are okay, nothing special."
+4,Tomatoes,2025-11-06,4,"Excellent tomatoes, will definitely buy again!"
+6,Broccoli,2025-11-01,3,These broccoli are acceptable.
+2,Carrots,2025-10-20,4,Love these carrots! Always consistent quality.
+1,Potatoes,2026-01-03,5,Love these potatoes! Always consistent quality.
+6,Broccoli,2025-11-23,1,The broccoli were wilted and tasteless.
+1,Potatoes,2025-12-22,3,"The potatoes are okay, I've had better."
+5,Lettuce,2025-12-24,1,The lettuce were wilted and tasteless.
+2,Carrots,2025-11-25,3,Standard quality carrots.
+2,Carrots,2025-12-31,4,"Fantastic carrots, exactly what I was looking for."
+3,Spinach,2025-12-26,2,The spinach was a bit stale and disappointing.
+2,Carrots,2025-12-25,4,Love these carrots! Always consistent quality.
+4,Tomatoes,2025-10-14,4,Outstanding! The tomatoes exceeded my expectations.
+4,Tomatoes,2025-11-14,2,Very disappointed with these tomatoes.
+3,Spinach,2025-11-01,2,These spinach were old and not fresh.
+1,Potatoes,2025-10-27,4,"Excellent potatoes, will definitely buy again!"
+6,Broccoli,2025-11-26,4,Very fresh and tasty broccoli. Highly recommend!
+1,Potatoes,2025-11-08,4,Perfect potatoes! Great taste and very fresh.
+1,Potatoes,2025-11-08,4,Outstanding! The potatoes exceeded my expectations.
+1,Potatoes,2025-11-09,5,Amazing quality! These potatoes are so good.
+4,Tomatoes,2025-12-07,4,Superb quality! These tomatoes are wonderful.
+2,Carrots,2025-12-07,2,These carrots were old and not fresh.
+6,Broccoli,2025-10-27,5,"Fantastic broccoli, exactly what I was looking for."
+1,Potatoes,2025-12-02,3,"The potatoes are okay, I've had better."
+4,Tomatoes,2025-11-18,1,Very disappointed with these tomatoes.
+4,Tomatoes,2026-01-02,4,Very fresh and tasty tomatoes. Highly recommend!
+3,Spinach,2025-10-18,2,The spinach were rotten when I opened the package.
+6,Broccoli,2025-12-01,3,"The broccoli are okay, I've had better."
+2,Carrots,2025-12-27,5,"Excellent carrots, will definitely buy again!"
+5,Lettuce,2025-12-06,4,Best lettuce in my life! Super fresh and delicious.
+5,Lettuce,2025-10-12,5,Delicious lettuce! My family loved them.
+2,Carrots,2025-10-20,5,"Fantastic carrots, exactly what I was looking for."
+5,Lettuce,2026-01-03,5,Perfect lettuce! Great taste and very fresh.
+3,Spinach,2025-11-06,4,Delicious spinach! My family loved them.
+2,Carrots,2026-01-01,3,"The carrots are okay, I've had better."
+4,Tomatoes,2025-10-10,5,Delicious tomatoes! My family loved them.
+6,Broccoli,2025-10-28,3,"The broccoli are okay, nothing special."
+6,Broccoli,2025-10-18,5,"Fantastic broccoli, exactly what I was looking for."
+6,Broccoli,2025-12-23,5,Love these broccoli! Always consistent quality.
+2,Carrots,2025-10-24,3,"Normal carrots, what you would expect."
+2,Carrots,2025-10-23,1,Bad quality carrots. Waste of money.
+4,Tomatoes,2026-01-01,4,Outstanding! The tomatoes exceeded my expectations.
+5,Lettuce,2025-11-19,5,Outstanding! The lettuce exceeded my expectations.
+6,Broccoli,2025-12-19,5,Perfect broccoli! Great taste and very fresh.
+3,Spinach,2025-12-29,5,Amazing quality! These spinach are so good.
+3,Spinach,2025-11-09,4,"Fantastic spinach, exactly what I was looking for."
+4,Tomatoes,2026-01-02,3,Fair quality tomatoes.
+5,Lettuce,2025-12-11,4,Outstanding! The lettuce exceeded my expectations.
+6,Broccoli,2025-12-24,1,Awful broccoli! Very poor quality.
+1,Potatoes,2025-11-30,5,Very fresh and tasty potatoes. Highly recommend!
+3,Spinach,2025-11-27,5,Delicious spinach! My family loved them.
+4,Tomatoes,2025-12-22,3,These tomatoes are acceptable.
+5,Lettuce,2025-12-29,4,Perfect lettuce! Great taste and very fresh.
+4,Tomatoes,2025-11-17,3,Standard quality tomatoes.
+5,Lettuce,2025-11-02,5,Superb quality! These lettuce are wonderful.
+1,Potatoes,2025-11-09,3,"The potatoes are okay, I've had better."
+5,Lettuce,2025-11-10,5,Perfect lettuce! Great taste and very fresh.
+4,Tomatoes,2025-11-28,5,"Fantastic tomatoes, exactly what I was looking for."
+5,Lettuce,2025-11-04,3,"These lettuce are fine, decent for the price."
+4,Tomatoes,2025-10-09,3,"The tomatoes are alright, nothing to complain about."
+3,Spinach,2025-12-02,5,"Fantastic spinach, exactly what I was looking for."
+1,Potatoes,2025-11-16,4,Superb quality! These potatoes are wonderful.
+6,Broccoli,2025-11-16,3,Standard quality broccoli.
+4,Tomatoes,2025-11-08,5,"Fantastic tomatoes, exactly what I was looking for."
+3,Spinach,2025-12-17,4,Outstanding! The spinach exceeded my expectations.
+6,Broccoli,2025-12-26,5,Perfect broccoli! Great taste and very fresh.
+4,Tomatoes,2025-11-10,5,"Excellent tomatoes, will definitely buy again!"
+4,Tomatoes,2025-11-21,4,Love these tomatoes! Always consistent quality.
+1,Potatoes,2025-12-03,4,Very fresh and tasty potatoes. Highly recommend!
+5,Lettuce,2025-10-26,5,Amazing quality! These lettuce are so good.
+4,Tomatoes,2025-11-04,5,"Excellent tomatoes, will definitely buy again!"
+1,Potatoes,2025-11-04,1,The potatoes was a bit stale and disappointing.
+2,Carrots,2025-11-21,3,Average quality carrots. Not bad but not great.
+6,Broccoli,2026-01-01,4,Very fresh and tasty broccoli. Highly recommend!
+4,Tomatoes,2026-01-05,3,"The tomatoes are okay, nothing special."
+6,Broccoli,2025-12-30,5,Very fresh and tasty broccoli. Highly recommend!
+6,Broccoli,2025-11-22,4,Perfect broccoli! Great taste and very fresh.
+6,Broccoli,2025-12-22,5,Outstanding! The broccoli exceeded my expectations.
+6,Broccoli,2025-10-17,5,Amazing quality! These broccoli are so good.
+2,Carrots,2025-11-08,5,"Excellent carrots, will definitely buy again!"
+5,Lettuce,2025-12-23,3,"The lettuce are okay, nothing special."
+6,Broccoli,2025-11-20,4,"Fantastic broccoli, exactly what I was looking for."
+6,Broccoli,2025-11-01,5,Superb quality! These broccoli are wonderful.
+3,Spinach,2025-10-18,5,Best spinach in my life! Super fresh and delicious.
+3,Spinach,2025-11-18,3,Standard quality spinach.
+4,Tomatoes,2025-10-15,3,These tomatoes are acceptable.
+4,Tomatoes,2025-11-24,5,Amazing quality! These tomatoes are so good.
+5,Lettuce,2025-10-29,4,Very fresh and tasty lettuce. Highly recommend!
+6,Broccoli,2025-11-30,5,"Fantastic broccoli, exactly what I was looking for."
+1,Potatoes,2025-12-26,3,"The potatoes are okay, nothing special."
+1,Potatoes,2025-11-16,5,Best potatoes in my life! Super fresh and delicious.
+1,Potatoes,2025-11-24,3,Standard quality potatoes.
+1,Potatoes,2025-12-19,2,Bad quality potatoes. Waste of money.
+2,Carrots,2025-11-14,3,These carrots are decent enough.
+5,Lettuce,2025-10-08,4,Superb quality! These lettuce are wonderful.
+1,Potatoes,2026-01-03,5,Superb quality! These potatoes are wonderful.
+5,Lettuce,2025-12-29,5,"Excellent lettuce, will definitely buy again!"
+6,Broccoli,2026-01-03,3,These broccoli are decent enough.
+2,Carrots,2025-12-25,5,Delicious carrots! My family loved them.
+3,Spinach,2025-10-25,5,Outstanding! The spinach exceeded my expectations.
+5,Lettuce,2025-12-01,5,Best lettuce in my life! Super fresh and delicious.
+3,Spinach,2025-11-02,4,Perfect spinach! Great taste and very fresh.
+2,Carrots,2025-10-25,5,Love these carrots! Always consistent quality.
+5,Lettuce,2025-12-01,5,Amazing quality! These lettuce are so good.
+1,Potatoes,2025-12-06,3,Fair quality potatoes.
+2,Carrots,2025-10-24,5,Delicious carrots! My family loved them.
+2,Carrots,2025-11-15,4,Love these carrots! Always consistent quality.
+2,Carrots,2025-10-22,4,Best carrots in my life! Super fresh and delicious.
+3,Spinach,2025-11-04,3,"The spinach are alright, nothing to complain about."
+5,Lettuce,2025-10-29,3,Standard quality lettuce.
+1,Potatoes,2026-01-04,5,Amazing quality! These potatoes are so good.
+4,Tomatoes,2025-12-27,2,These tomatoes were old and not fresh.
+1,Potatoes,2025-12-16,3,Average quality potatoes. Not bad but not great.
+4,Tomatoes,2025-10-21,4,Delicious tomatoes! My family loved them.
+6,Broccoli,2025-10-27,3,"These broccoli are fine, decent for the price."
+2,Carrots,2025-11-24,3,Standard quality carrots.
+6,Broccoli,2025-11-15,1,Very disappointed with these broccoli.
+2,Carrots,2025-10-31,3,Average quality carrots. Not bad but not great.
+5,Lettuce,2025-10-14,5,"Excellent lettuce, will definitely buy again!"
+2,Carrots,2025-11-18,4,Delicious carrots! My family loved them.
+6,Broccoli,2025-11-26,4,Amazing quality! These broccoli are so good.
+5,Lettuce,2025-11-24,3,"The lettuce are okay, nothing special."
+3,Spinach,2025-10-12,4,"Fantastic spinach, exactly what I was looking for."
+3,Spinach,2025-11-05,5,"Fantastic spinach, exactly what I was looking for."
+6,Broccoli,2025-12-02,3,These broccoli are acceptable.
+6,Broccoli,2025-12-22,4,Best broccoli in my life! Super fresh and delicious.
+2,Carrots,2025-12-01,5,Perfect carrots! Great taste and very fresh.
+3,Spinach,2025-12-11,5,Superb quality! These spinach are wonderful.
+1,Potatoes,2025-10-20,5,Delicious potatoes! My family loved them.
+4,Tomatoes,2025-11-07,2,These tomatoes are terrible. Not what I expected.
+2,Carrots,2025-12-24,5,Love these carrots! Always consistent quality.
+5,Lettuce,2025-12-28,1,These lettuce were old and not fresh.
+4,Tomatoes,2025-12-26,3,Standard quality tomatoes.
+4,Tomatoes,2025-11-16,5,Delicious tomatoes! My family loved them.
+5,Lettuce,2025-11-29,5,Delicious lettuce! My family loved them.
+1,Potatoes,2025-10-31,1,Bad quality potatoes. Waste of money.
+6,Broccoli,2025-11-25,3,Average quality broccoli. Not bad but not great.
+4,Tomatoes,2025-12-06,4,Amazing quality! These tomatoes are so good.
+3,Spinach,2025-12-12,5,Very fresh and tasty spinach. Highly recommend!
+3,Spinach,2025-12-26,5,Best spinach in my life! Super fresh and delicious.
+2,Carrots,2025-12-15,4,Delicious carrots! My family loved them.
+6,Broccoli,2026-01-02,4,"Excellent broccoli, will definitely buy again!"
+4,Tomatoes,2026-01-01,3,These tomatoes are acceptable.
+4,Tomatoes,2025-11-01,5,Superb quality! These tomatoes are wonderful.
+6,Broccoli,2025-10-21,5,Perfect broccoli! Great taste and very fresh.
+6,Broccoli,2025-11-30,4,"Fantastic broccoli, exactly what I was looking for."
+5,Lettuce,2025-12-26,3,Fair quality lettuce.
+5,Lettuce,2025-10-31,5,Very fresh and tasty lettuce. Highly recommend!
+5,Lettuce,2025-10-28,4,Delicious lettuce! My family loved them.
+6,Broccoli,2025-11-06,3,Average quality broccoli. Not bad but not great.
+6,Broccoli,2025-11-14,4,Outstanding! The broccoli exceeded my expectations.
+1,Potatoes,2025-12-28,3,Fair quality potatoes.
+6,Broccoli,2025-10-28,5,Very fresh and tasty broccoli. Highly recommend!
+1,Potatoes,2025-12-13,4,Very fresh and tasty potatoes. Highly recommend!
+2,Carrots,2025-12-02,3,"The carrots are okay, I've had better."
+1,Potatoes,2025-12-24,5,Best potatoes in my life! Super fresh and delicious.
+1,Potatoes,2025-11-09,3,"Normal potatoes, what you would expect."
+6,Broccoli,2025-10-18,5,Outstanding! The broccoli exceeded my expectations.
+2,Carrots,2025-10-11,2,The carrots was a bit stale and disappointing.
+1,Potatoes,2026-01-05,4,Amazing quality! These potatoes are so good.
+6,Broccoli,2025-10-22,5,"Excellent broccoli, will definitely buy again!"
+6,Broccoli,2025-12-31,4,"Excellent broccoli, will definitely buy again!"
+5,Lettuce,2025-11-01,4,Perfect lettuce! Great taste and very fresh.
+2,Carrots,2025-11-22,5,Perfect carrots! Great taste and very fresh.
+6,Broccoli,2025-11-30,4,Amazing quality! These broccoli are so good.
+6,Broccoli,2025-10-14,2,Bad quality broccoli. Waste of money.
+1,Potatoes,2025-10-27,4,Love these potatoes! Always consistent quality.
+6,Broccoli,2025-10-08,5,Perfect broccoli! Great taste and very fresh.
+6,Broccoli,2025-11-06,5,Love these broccoli! Always consistent quality.
+4,Tomatoes,2025-12-18,1,Awful tomatoes! Very poor quality.
+2,Carrots,2025-11-12,4,"Excellent carrots, will definitely buy again!"
+2,Carrots,2025-10-17,3,These carrots are acceptable.
+3,Spinach,2025-10-24,5,Outstanding! The spinach exceeded my expectations.
+1,Potatoes,2025-12-21,5,Perfect potatoes! Great taste and very fresh.
+1,Potatoes,2025-10-14,5,"Fantastic potatoes, exactly what I was looking for."
+5,Lettuce,2025-11-20,4,"Fantastic lettuce, exactly what I was looking for."
+4,Tomatoes,2025-12-22,5,Love these tomatoes! Always consistent quality.
+2,Carrots,2025-10-24,4,"Excellent carrots, will definitely buy again!"
+3,Spinach,2025-11-19,3,"The spinach are okay, I've had better."
+5,Lettuce,2025-12-21,3,Average quality lettuce. Not bad but not great.
+2,Carrots,2025-12-31,3,"The carrots are alright, nothing to complain about."
+2,Carrots,2025-12-17,3,"These carrots are fine, decent for the price."
+1,Potatoes,2025-12-23,1,These potatoes are terrible. Not what I expected.
+1,Potatoes,2025-10-12,1,Awful potatoes! Very poor quality.
+6,Broccoli,2025-11-19,5,Love these broccoli! Always consistent quality.
+6,Broccoli,2025-12-27,5,Amazing quality! These broccoli are so good.
+6,Broccoli,2025-10-16,5,"Fantastic broccoli, exactly what I was looking for."
+4,Tomatoes,2025-12-04,4,Very fresh and tasty tomatoes. Highly recommend!
+4,Tomatoes,2025-10-24,4,"Fantastic tomatoes, exactly what I was looking for."
+6,Broccoli,2026-01-02,5,Very fresh and tasty broccoli. Highly recommend!
+5,Lettuce,2025-12-13,4,"Fantastic lettuce, exactly what I was looking for."
+5,Lettuce,2025-11-26,4,"Excellent lettuce, will definitely buy again!"
+3,Spinach,2025-11-03,2,This is the worst spinach ever! Not fresh at all.
+5,Lettuce,2025-11-26,3,Fair quality lettuce.
+6,Broccoli,2025-10-08,3,Average quality broccoli. Not bad but not great.
+1,Potatoes,2025-11-05,5,Delicious potatoes! My family loved them.
+2,Carrots,2025-12-02,2,These carrots are terrible. Not what I expected.
+3,Spinach,2025-11-20,5,"Excellent spinach, will definitely buy again!"
+5,Lettuce,2025-10-24,3,"These lettuce are fine, decent for the price."
+4,Tomatoes,2025-10-18,1,Bad quality tomatoes. Waste of money.
+4,Tomatoes,2025-10-31,4,Love these tomatoes! Always consistent quality.
+1,Potatoes,2025-12-10,5,Delicious potatoes! My family loved them.
+2,Carrots,2025-11-22,5,Perfect carrots! Great taste and very fresh.
+4,Tomatoes,2025-12-31,3,"These tomatoes are fine, decent for the price."
+2,Carrots,2025-11-26,1,Poor quality carrots. Would not recommend.
+5,Lettuce,2025-11-15,5,Love these lettuce! Always consistent quality.
+6,Broccoli,2025-10-24,1,This is the worst broccoli ever! Not fresh at all.
+1,Potatoes,2025-11-05,4,Amazing quality! These potatoes are so good.
+5,Lettuce,2025-11-08,4,"Fantastic lettuce, exactly what I was looking for."
+3,Spinach,2025-11-16,4,Amazing quality! These spinach are so good.
+1,Potatoes,2025-10-19,3,"The potatoes are okay, I've had better."
+4,Tomatoes,2025-12-14,1,Awful tomatoes! Very poor quality.
+2,Carrots,2025-11-11,5,Delicious carrots! My family loved them.
+5,Lettuce,2025-11-21,1,The lettuce was a bit stale and disappointing.
+4,Tomatoes,2025-10-14,4,Outstanding! The tomatoes exceeded my expectations.
+3,Spinach,2025-11-24,2,Bad quality spinach. Waste of money.
+4,Tomatoes,2025-12-16,2,The tomatoes was a bit stale and disappointing.
+2,Carrots,2025-12-30,5,Delicious carrots! My family loved them.
+6,Broccoli,2025-12-28,3,"These broccoli are fine, decent for the price."
+6,Broccoli,2025-12-22,4,"Fantastic broccoli, exactly what I was looking for."
+3,Spinach,2025-10-11,4,Outstanding! The spinach exceeded my expectations.
+5,Lettuce,2025-11-08,4,Superb quality! These lettuce are wonderful.
+5,Lettuce,2025-12-17,5,Perfect lettuce! Great taste and very fresh.
+5,Lettuce,2025-11-22,3,"The lettuce are okay, nothing special."
+6,Broccoli,2025-11-15,5,"Excellent broccoli, will definitely buy again!"
+6,Broccoli,2025-11-10,5,Perfect broccoli! Great taste and very fresh.
+2,Carrots,2026-01-06,4,Perfect carrots! Great taste and very fresh.
+4,Tomatoes,2025-12-07,4,Outstanding! The tomatoes exceeded my expectations.
+4,Tomatoes,2025-11-07,5,Delicious tomatoes! My family loved them.
+4,Tomatoes,2025-10-28,2,The tomatoes were wilted and tasteless.
+3,Spinach,2025-10-13,2,These spinach were old and not fresh.
+5,Lettuce,2025-10-11,5,Love these lettuce! Always consistent quality.
+3,Spinach,2025-11-24,2,Very disappointed with these spinach.
+6,Broccoli,2025-10-20,3,"The broccoli are alright, nothing to complain about."
+3,Spinach,2025-12-28,3,"The spinach are okay, I've had better."
+3,Spinach,2025-10-09,2,Poor quality spinach. Would not recommend.
+3,Spinach,2025-12-24,5,Perfect spinach! Great taste and very fresh.
+4,Tomatoes,2025-11-07,5,Amazing quality! These tomatoes are so good.
+2,Carrots,2025-11-22,3,These carrots are decent enough.
+1,Potatoes,2025-10-22,5,Superb quality! These potatoes are wonderful.
+2,Carrots,2025-10-10,5,Best carrots in my life! Super fresh and delicious.
+5,Lettuce,2025-11-27,5,Perfect lettuce! Great taste and very fresh.
+4,Tomatoes,2025-12-14,3,These tomatoes are decent enough.
+6,Broccoli,2026-01-04,3,"The broccoli are alright, nothing to complain about."
+3,Spinach,2025-12-23,4,"Fantastic spinach, exactly what I was looking for."
+5,Lettuce,2025-12-27,4,Outstanding! The lettuce exceeded my expectations.
+3,Spinach,2025-12-03,5,Outstanding! The spinach exceeded my expectations.
+2,Carrots,2025-11-07,3,"The carrots are alright, nothing to complain about."
+4,Tomatoes,2025-10-16,4,Very fresh and tasty tomatoes. Highly recommend!
+5,Lettuce,2025-12-16,4,Best lettuce in my life! Super fresh and delicious.
+6,Broccoli,2025-10-27,4,Superb quality! These broccoli are wonderful.
+3,Spinach,2025-10-27,4,Very fresh and tasty spinach. Highly recommend!
+5,Lettuce,2025-10-23,1,These lettuce are terrible. Not what I expected.
+3,Spinach,2025-12-01,5,"Fantastic spinach, exactly what I was looking for."
+6,Broccoli,2026-01-01,5,Delicious broccoli! My family loved them.
+4,Tomatoes,2025-11-05,5,Outstanding! The tomatoes exceeded my expectations.
+2,Carrots,2025-12-02,5,"Excellent carrots, will definitely buy again!"
+4,Tomatoes,2025-11-15,4,Outstanding! The tomatoes exceeded my expectations.
+6,Broccoli,2025-12-09,3,"Normal broccoli, what you would expect."
+6,Broccoli,2025-11-21,5,Perfect broccoli! Great taste and very fresh.
+4,Tomatoes,2025-12-30,5,Delicious tomatoes! My family loved them.
+4,Tomatoes,2025-12-31,3,"These tomatoes are fine, decent for the price."
+4,Tomatoes,2025-12-25,1,Awful tomatoes! Very poor quality.
+3,Spinach,2025-12-01,2,Poor quality spinach. Would not recommend.
+3,Spinach,2025-12-28,3,"The spinach are okay, I've had better."
+4,Tomatoes,2025-11-13,5,Delicious tomatoes! My family loved them.
+3,Spinach,2025-12-26,1,The spinach were wilted and tasteless.
+3,Spinach,2025-12-02,2,The spinach were rotten when I opened the package.
+5,Lettuce,2025-11-23,1,The lettuce were rotten when I opened the package.
+6,Broccoli,2025-12-02,3,These broccoli are acceptable.
+3,Spinach,2025-12-19,4,Best spinach in my life! Super fresh and delicious.
+2,Carrots,2025-10-08,4,Amazing quality! These carrots are so good.
+1,Potatoes,2025-11-01,3,"Normal potatoes, what you would expect."
+5,Lettuce,2026-01-02,5,Outstanding! The lettuce exceeded my expectations.
+4,Tomatoes,2025-11-07,5,Amazing quality! These tomatoes are so good.
+6,Broccoli,2025-12-22,4,Love these broccoli! Always consistent quality.
+4,Tomatoes,2025-10-22,4,Outstanding! The tomatoes exceeded my expectations.
+2,Carrots,2025-10-21,3,"Normal carrots, what you would expect."
+6,Broccoli,2025-11-19,5,Love these broccoli! Always consistent quality.
+6,Broccoli,2025-10-25,5,"Fantastic broccoli, exactly what I was looking for."
+5,Lettuce,2025-10-22,3,"These lettuce are fine, decent for the price."
