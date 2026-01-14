@@ -1,331 +1,302 @@
-# Data Advanced Workshop: ETL & ML Sentiment Analysis
+# Data Advanced Workshop: Complete MLE Lifecycle
+## ETL → ML → MLOps → Deployment
+
+A hands-on workshop teaching the **complete Machine Learning Engineering lifecycle** through a real-world sentiment analysis project for Albert Heijn fresh product reviews.
 
 ## Overview
 
-This workshop teaches students about the complete data lifecycle through a practical sentiment analysis project for Albert Heijn fresh product reviews. Students will learn ETL processes, data preparation, storage concepts, machine learning, and deployment theory.
+This workshop guides students through a realistic ML project lifecycle: from business analysis and ETL pipelines, through model training and validation, to API deployment and monitoring. Students experience the full data engineering and MLOps workflow used in production systems.
 
 **Duration**: 1 hour
 **Level**: Data Advanced 1 students
-**Tools**: Python, Jupyter Notebooks, scikit-learn
+**Tools**: Python, Jupyter Notebooks, scikit-learn, FastAPI
 
 ## Workshop Scenario
 
-Albert Heijn wants to analyze customer reviews of fresh products (potatoes, carrots, spinach, etc.) to determine which products need discounts based on customer sentiment. The goal is to reduce food waste by identifying products with negative reviews and recommending appropriate discounts.
+🥬 **The Challenge**: Supermarket wants to reduce food waste and optimize discounts for fresh products using customer sentiment analysis.
 
-**Example**: A review saying "worst spinach ever" should trigger a 90% discount recommendation.
+**Business Goal**: Build an ML system that:
+- Analyzes customer reviews of fresh products (lettuce, tomatoes, spinach, etc.)
+- Predicts sentiment (positive/neutral/negative)
+- Recommends **smart discounts** at the product level
+- Deploys as a REST API for real-time predictions
+
+**Key Innovation**: Smart discounts combine THREE data sources:
+1. **Customer sentiment** (from ML model predictions)
+2. **Inventory pressure** (stock levels vs. sales velocity)
+3. **Model confidence** (high confidence = more aggressive discount)
+
+**Example**: Lettuce with 80% negative reviews + 95 units in stock + only 2 sales/day = **90% discount** to clear inventory before spoilage!
 
 ## Learning Objectives
 
-By the end of this workshop, students will be able to:
+By the end of this workshop, students will understand and apply:
 
-1. Extract and explore data (ETL concepts)
-2. Clean and prepare data for machine learning
-3. Understand data storage options and lifecycle management
-4. Train a sentiment analysis model using scikit-learn
-5. Make predictions and create a discount recommendation system
-6. Understand ML deployment strategies (theoretical)
+### 🎯 **MLE Lifecycle Components**
 
-## Workshop Structure
+1. **Business Analysis** - Validate project feasibility BEFORE coding
+   - Explore raw data to assess quality and volume
+   - Identify key insights and feasibility blockers
+   - Make data-driven go/no-go decisions
 
-### Part 1: Data Extraction (ETL) - 10 minutes
-- Load product review dataset
-- Explore data structure and quality
-- Identify missing values, duplicates, and inconsistencies
+2. **ETL & Data Engineering** - Build production-ready data pipelines
+   - Implement **medallion architecture** (Bronze → Silver → Gold)
+   - Clean datasets separately (reviews, inventory, sales)
+   - Merge and enrich data for ML consumption
+   - Handle missing values, duplicates, and data quality issues
 
-**Notebook**: [01_data_extraction.ipynb](notebooks/01_data_extraction.ipynb)
+3. **ML Model Training** - Train and validate production models
+   - Build sentiment classifier (TF-IDF + Logistic Regression)
+   - Achieve 87%+ accuracy on test set
+   - Aggregate predictions at product level
+   - Create smart discount system using ML + business data
 
-### Part 2: Data Preparation - 15 minutes
-- Handle missing values and duplicates
-- Clean and normalize text data
-- Create sentiment labels from ratings
-- Save cleaned data for analysis
+4. **MLOps & Model Registry** - Professional model management
+   - Version models with metadata (accuracy, timestamp, params)
+   - Validate models before deployment (quality gates)
+   - Save artifacts (model + vectorizer) for serving
 
-**Notebook**: [02_data_preparation.ipynb](notebooks/02_data_preparation.ipynb)
+5. **API Deployment** - Build and deploy ML services
+   - Create REST API with FastAPI
+   - Implement prediction endpoint with error handling
+   - Test locally with interactive examples
 
-### Part 3: Storage Theory - 10 minutes
-- Data lifecycle stages (Bronze/Silver/Gold)
-- Storage options (Local, Cloud, Databases, Data Lakes)
-- Azure Blob Storage and lifecycle management
-- Real-world example: AH Dynamic Markdown architecture
 
-**Notebook**: [03_storage_theory.ipynb](notebooks/03_storage_theory.ipynb)
+### 🔑 **Key Skills Developed**
 
-### Part 4: ML Analysis - 15 minutes
-- Train sentiment classification model (TF-IDF + Logistic Regression)
-- Evaluate model performance
-- Make predictions on new reviews
-- Create discount recommendation system
-- Analyze product-level sentiment
-
-**Notebook**: [04_ml_analysis.ipynb](notebooks/04_ml_analysis.ipynb)
-
-### Part 5: Deployment Theory - 5 minutes
-- Batch vs. real-time deployment
-- Model serialization and versioning
-- Monitoring and retraining strategies
-- MLOps best practices
-- Real-world deployment examples
-
-**Notebook**: [05_deployment_theory.ipynb](notebooks/05_deployment_theory.ipynb)
-
-### Part 6: Q&A - 5 minutes
+✅ End-to-end ML project workflow (business → deployment)
+✅ Production ETL patterns (medallion architecture)
+✅ Combining ML predictions with business logic
+✅ Model versioning and validation (MLOps basics)
+✅ REST API development for ML serving
 
 ## Setup Instructions
 
 ### Prerequisites
 
-- Python 3.10 or higher
-- VS Code with Jupyter extension (recommended) OR Jupyter Notebook/JupyterLab
-- mise (for Python environment management)
+- **Python 3.10+** (3.14.2 recommended)
+- **VS Code** with Jupyter extension (recommended) OR Jupyter Notebook/Lab
+- **mise** (for Python environment management) - [Install mise](https://mise.jdx.dev/)
 
-### Installation
-
-1. **Clone or download this repository**
-
-2. **Set up Python environment with mise**
-   ```bash
-   cd hsl-data-presentation
-   mise install
-   ```
-
-   This will automatically:
-   - Install Python 3.14.2
-   - Create a virtual environment at `.venv`
-   - Install all dependencies from `requirements.txt`
-
-3. **Register the Jupyter kernel** (already done if you see "hsl-workshop")
-   ```bash
-   source .venv/bin/activate
-   python -m ipykernel install --user --name=hsl-workshop --display-name="Python 3 (HSL Workshop)"
-   ```
-
-### Using with VS Code (Recommended)
-
-**Everything is already configured!** Just:
-
-1. Open the project folder in VS Code
-2. Open any notebook (e.g., `notebooks/01_data_extraction.ipynb`)
-3. Click the kernel selector (top-right) and choose **"Python 3 (HSL Workshop)"**
-4. Start running cells!
-
-📖 See [VSCODE_SETUP.md](VSCODE_SETUP.md) for detailed VS Code setup and troubleshooting.
-
-### Using with Jupyter in Browser
-
-If you prefer the classic Jupyter interface:
+### Quick Installation
 
 ```bash
-source .venv/bin/activate
-jupyter notebook
+# 1. Clone or download this repository
+cd hsl-presentation-data-advanced
+
+# 2. Install Python + dependencies with mise
+mise install
+
+# This automatically:
+#   ✅ Installs Python 3.14.2
+#   ✅ Creates virtual environment at .venv
+#   ✅ Installs all packages from requirements.txt
 ```
 
-The kernel "Python 3 (HSL Workshop)" will be available in the kernel list.
+### VS Code Setup (Recommended)
 
-### Quick Start
+**Already configured!** Just:
+
+1. Open project folder in VS Code
+2. Open any notebook: `notebooks/01_business_analysis.ipynb`
+3. Click kernel selector (top-right corner)
+4. Choose: **"Python 3 (HSL Workshop)"** or **".venv (Python 3.14.2)"**
+5. Run cells! 🚀
+
+📖 Detailed VS Code guide: [VSCODE_SETUP.md](VSCODE_SETUP.md)
+
+### Jupyter in Browser
 
 ```bash
-# Option 1: Use the activation script
+# Activate environment
+source .venv/bin/activate
+# or use helper script
 source activate.sh
 
-# Option 2: Activate manually
-source .venv/bin/activate
-
-# Then launch Jupyter
+# Launch Jupyter
 jupyter notebook
+# or
+jupyter lab
 ```
 
-### Workflow
+### Generate Fresh Data (Optional)
 
-1. Start with `notebooks/01_data_extraction.ipynb`
-2. Work through notebooks 01 → 05 sequentially
-3. The dataset is already generated in `data/raw/product_reviews.csv`
+The dataset is pre-generated, but you can create a new one:
+
+```bash
+source .venv/bin/activate
+python generate_realistic_data.py
+```
+
+This creates `data/raw/product_reviews.csv` with ~800 reviews.
 
 ## Project Structure
 
 ```
-hsl-data-presentation/
-├── README.md                      # This file
-├── requirements.txt               # Python dependencies
-├── mise.toml                      # mise configuration
-├── notebooks/
-│   ├── 01_data_extraction.ipynb   # ETL and data exploration
-│   ├── 02_data_preparation.ipynb  # Data cleaning and preprocessing
-│   ├── 03_storage_theory.ipynb    # Storage concepts (theoretical)
-│   ├── 04_ml_analysis.ipynb       # ML model training and analysis
-│   └── 05_deployment_theory.ipynb # Deployment concepts (theoretical)
-├── data/
-│   ├── raw/
-│   │   └── product_reviews.csv    # Original dataset (generated)
-│   └── cleaned/
-│       └── cleaned_reviews.csv    # Cleaned dataset (created in notebook 02)
-├── scripts/
-│   └── generate_dataset.py        # Generate synthetic review data
-├── models/
-│   ├── sentiment_model.pkl        # Trained ML model (created in notebook 04)
-│   └── tfidf_vectorizer.pkl       # TF-IDF vectorizer (created in notebook 04)
-└── utils/
-    └── discount_predictor.py      # Reusable prediction functions
+hsl-presentation-data-advanced/
+├── README.md                          # This file
+├── QUICKSTART.md                      # Quick reference guide
+├── VSCODE_SETUP.md                    # VS Code setup guide
+├── requirements.txt                   # Python dependencies
+├── mise.toml                          # mise configuration
+├── activate.sh                        # Environment activation script
+│
+├── notebooks/                         # Interactive workshop notebooks
+│   ├── 01_business_analysis.ipynb     # Data exploration & feasibility
+│   ├── 02_etl_data_preparation.ipynb  # ETL pipeline (Bronze→Silver→Gold)
+│   ├── 03_ml_model_training.ipynb     # ML training + MLOps + smart discounts
+│   ├── 04_deployment_practice.ipynb   # FastAPI + monitoring dashboard
+│
+├── data/                              # Data storage (medallion architecture)
+│   ├── raw/                           # 🥉 Bronze: Raw, unprocessed data
+│   │   └── product_reviews.csv        # Generated synthetic reviews
+│   ├── bronze/                        # 🥉 Bronze layer (raw snapshots)
+│   ├── silver/                        # 🥈 Silver: Cleaned datasets
+│   │   ├── reviews_clean.csv
+│   │   ├── inventory_clean.csv
+│   │   └── sales_clean.csv
+│   └── gold/                          # 🥇 Gold: ML-ready enriched data
+│       └── final_dataset.csv
+│
+├── models/                            # ML model artifacts (versioned)
+│   ├── sentiment_model_v1.pkl         # Trained classifier
+│   ├── tfidf_vectorizer_v1.pkl        # Text vectorizer
+│   └── model_registry.json            # Model metadata & versions
+│
+├── monitoring/                        # Monitoring artifacts
+│   └── dashboard_*.png                # Saved dashboard snapshots
+│
+└── generate_realistic_data.py         # Data generation script
 ```
 
 ## Dataset
 
-The dataset is **synthetically generated** to ensure relevance to Albert Heijn and appropriate size for the workshop.
+The dataset is **synthetically generated** to ensure relevance and appropriate size for a 1-hour workshop.
 
-**Features**:
-- **product_id**: Unique identifier for each product
-- **product_name**: Name of fresh product (Potatoes, Carrots, Spinach, Tomatoes, Lettuce, Broccoli)
-- **review_text**: Customer review text
-- **rating**: Star rating (1-5)
-- **date**: Review date
-- **sales_volume**: Units sold in last 30 days
-- **stock_level**: Current inventory level
+### Features
 
-**Statistics**:
-- ~800 reviews total
-- 6 fresh products
-- Sentiment distribution: 60% positive, 25% neutral, 15% negative
-- Includes data quality issues (5% missing values, 3% duplicates)
-
-## Key Concepts Covered
-
-### ETL (Extract, Transform, Load)
-- Data extraction from files
-- Data quality assessment
-- Identifying issues early in the pipeline
-
-### Data Preparation
-- Handling missing values (drop vs. impute)
-- Removing duplicates
-- Text preprocessing and normalization
-- Feature engineering
-
-### Data Storage
-- Data lifecycle stages
-- Cloud storage (Azure Blob Storage)
-- Retention policies and cleanup
-- Real-world architecture examples
-
-### Machine Learning
-- Text vectorization (TF-IDF)
-- Classification with Logistic Regression
-- Model evaluation (accuracy, confusion matrix)
-- Model interpretability
-
-### Deployment
-- Batch vs. real-time predictions
-- Model serialization
-- Monitoring and retraining
-- MLOps best practices
-
-## Connection to Data Advanced 1
-
-This workshop aligns with Data Advanced 1 curriculum:
-
-- **ETL Pipelines**: Similar to YouTube data warehouse project
-- **Data Preparation**: Essential for any data project
-- **Storage Concepts**: Cloud storage and data lifecycle
-- **ML Basics**: Extension of clustering/classification concepts
-- **Real-World Application**: AH Dynamic Markdown as case study
-
-## Real-World Connection: AH Dynamic Markdown
-
-Throughout the workshop, we relate concepts to Albert Heijn's actual Dynamic Markdown system:
-
-- **Data Storage**: Azure Blob Storage for raw sales and inventory data
-- **Processing**: Databricks for ETL and ML model training
-- **Serving**: Azure SQL Database for real-time access
-- **Analytics**: PowerBI dashboards for store managers
-- **Impact**: Reduced food waste, optimized discounts, data-driven decisions
-
-## Example Outputs
-
-### Discount Predictions
-
-| Product | Review | Sentiment | Confidence | Discount |
-|---------|--------|-----------|------------|----------|
-| Spinach | "worst spinach ever" | Negative | 94% | 90% |
-| Potatoes | "best potatoes in my life" | Positive | 89% | 5% |
-| Carrots | "carrot was a bit stale" | Negative | 72% | 70% |
-
-### Product Recommendations
-
-| Product | Negative % | Avg Rating | Recommendation |
-|---------|-----------|------------|----------------|
-| Broccoli | 18.2% | 3.4 | Moderate discount (30-50%) |
-| Spinach | 16.5% | 3.5 | Moderate discount (30-50%) |
-| Potatoes | 14.1% | 3.7 | Good sentiment (0-20%) |
+| Column | Description | Example |
+|--------|-------------|---------|
+| `product_id` | Unique product identifier | `P001` |
+| `product_name` | Fresh product name | `Lettuce`, `Tomatoes` |
+| `review_text` | Customer review | "Fresh and crispy!" |
+| `rating` | Star rating (1-5) | `4` |
+| `date` | Review date | `2025-01-15` |
+| `avg_stock_level` | Average inventory units | `45` |
+| `avg_daily_sales` | Average daily sales velocity | `12.5` |
 
 ## Troubleshooting
 
-### "Module not found" error
-- Make sure you installed dependencies: `mise exec -- pip install -r requirements.txt`
-- Ensure you're using mise: `mise exec -- jupyter notebook`
+### Environment Issues
 
-### "File not found" error for dataset
-- Run the dataset generation script: `cd scripts && mise exec -- python generate_dataset.py`
+**"Module not found" error**
+```bash
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
-### "Model not found" error
-- Run notebooks in order (01 → 05)
-- The model is created in notebook 04
+**"Kernel not found" in Jupyter**
+```bash
+source .venv/bin/activate
+python -m ipykernel install --user --name=hsl-workshop --display-name="Python 3 (HSL Workshop)"
+```
 
-### Jupyter kernel issues
-- Restart the kernel: Kernel → Restart
-- Clear output: Cell → All Output → Clear
+**mise not working**
+```bash
+# Install mise first
+curl https://mise.run | sh
+# Then
+mise install
+```
+
+### Data Issues
+
+**"File not found" for dataset**
+```bash
+# Generate new dataset
+source .venv/bin/activate
+python generate_realistic_data.py
+```
+
+**"data/silver/ directory not found"**
+- This is normal! Silver/Gold directories are created automatically when running Notebook 2
+- Run notebooks in order: 01 → 02 → 03 → 04
+
+### Model Issues
+
+**"Model file not found"**
+- Run Notebook 3 first to train and save the model
+- Check `models/` directory for `sentiment_model_v1.pkl`
+
+**"Vectorizer not found"**
+- Models and vectorizers are saved together in Notebook 3
+- Both files must exist for API to work
+
+### API Issues
+
+**"Port 8000 already in use"**
+```python
+# In notebook, change port:
+uvicorn.run(app, host="0.0.0.0", port=8001)
+```
+
+**"Address already in use"**
+- Stop existing FastAPI server
+- Restart Jupyter kernel
+- Run API cell again
+
+### VS Code Issues
+
+**Wrong Python interpreter**
+1. Press `Cmd + Shift + P` (Mac) or `Ctrl + Shift + P` (Windows)
+2. Type: "Python: Select Interpreter"
+3. Choose: `.venv/bin/python`
+
+**Kernel keeps crashing**
+- Restart VS Code
+- Clear all outputs: Cell → All Output → Clear
+- Restart kernel: Kernel → Restart
 
 ## Extensions and Next Steps
 
-After completing the workshop, students can:
+After completing the workshop, students can explore:
 
-1. **Experiment with different ML models**
-   - Try Random Forest, SVM, or Naive Bayes
-   - Compare performance with Logistic Regression
+### 🚀 Extend the Workshop
 
-2. **Add more features**
-   - Product price
-   - Seasonality (time of year)
-   - Store location
+1. **Improve the ML Model**
+   - Try different algorithms (Random Forest, SVM, Naive Bayes)
+   - Use pre-trained transformers (DistilBERT, RoBERTa)
+   - Add aspect-based sentiment (price, freshness, taste)
+   - Implement multilingual support (Dutch + English)
 
-3. **Build a simple API**
-   - Create a Flask or FastAPI service
-   - Deploy locally and test with Postman
+2. **Enhance the Discount System**
+   - Add seasonality factors (summer vs winter products)
+   - Include product price tiers
+   - Factor in competitor pricing
+   - Add promotion effectiveness tracking
 
-4. **Explore cloud deployment**
-   - Try Azure ML or Databricks Community Edition
-   - Deploy model to Azure App Service
+3. **Build Production Features**
+   - Add authentication to API (API keys, OAuth)
+   - Implement rate limiting
+   - Add request logging
+   - Create admin dashboard for model retraining
 
-5. **Improve the model**
-   - Use pre-trained transformers (DistilBERT)
-   - Handle multilingual reviews
-   - Add aspect-based sentiment analysis
+4. **Deploy to Cloud**
+   - Deploy API to Azure App Service
+   - Use Azure ML for model training
+   - Set up Azure Monitor for observability
+   - Implement CI/CD with GitHub Actions
 
-## Resources
+5. **Advanced MLOps**
+   - Set up A/B testing for model versions
+   - Implement automated retraining pipeline
+   - Add data drift detection
+   - Create model explainability dashboard
 
-### Course Materials
-- Skills learned in the Data Advanced 1 course
-- YouTube data warehouse project
 
-### Bonus Learning
-Microsoft has good free [learning paths](https://learn.microsoft.com/en-us/training/browse/?roles=data-scientist) that everyone can use.
-
-### External Resources
-- [scikit-learn documentation](https://scikit-learn.org/stable/)
-- [Pandas documentation](https://pandas.pydata.org/docs/)
-- [Azure ML documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)
-- [TF-IDF explained](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
 
 ## Authors
 
 - Agata Sowa (Strategy & Analytics @ Albert Heijn)
 - Niels Mooren (Platform Engineer @ Albert Heijn)
 
-## License
-
-This workshop is for educational purposes only.
-
-## Feedback
-
-For questions or feedback about this workshop, please contact your instructor.
-
----
-
-**Good luck with the workshop! Remember: The goal is to learn the complete data lifecycle, from raw data to deployment.**
